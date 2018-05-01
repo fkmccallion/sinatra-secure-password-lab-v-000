@@ -25,7 +25,7 @@ class ApplicationController < Sinatra::Base
     else
       redirect "/login"
     end
-    #binding.pry
+    binding.pry
     #if @user.save
 		#		redirect "/login"
 		#else
