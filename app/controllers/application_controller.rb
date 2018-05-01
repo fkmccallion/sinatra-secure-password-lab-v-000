@@ -25,7 +25,7 @@ binding.pry
     else
       redirect "/login"
     end
-    
+
     #if @user.save
 		#		redirect "/login"
 		#else
