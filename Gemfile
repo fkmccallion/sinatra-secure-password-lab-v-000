@@ -13,7 +13,7 @@ gem 'rack-test'
 gem 'shotgun'
 
 
-group :test do
+group :development do
   gem 'pry'
   gem 'sqlite3'
   gem 'rspec'
