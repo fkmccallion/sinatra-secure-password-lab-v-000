@@ -24,7 +24,6 @@ class ApplicationController < Sinatra::Base
       redirect "/failure"
     else
       @user.save
-      binding.pry
       redirect "/login"
     end
 
