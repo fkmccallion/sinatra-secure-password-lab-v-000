@@ -23,7 +23,7 @@ class ApplicationController < Sinatra::Base
     if @user.username == nil || @user.password_digest == nil
       redirect "/failure"
     end
-    binding.pry
+    #binding.pry
     #if @user.save
 		#		redirect "/login"
 		#else
